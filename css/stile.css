@@ -153,5 +153,14 @@ main {
   margin-left: 5px;
   color: grey;
 }
-
-
+footer {
+  background: #222;
+  color: white;
+  text-align: start;
+  padding: 20px;
+  font-size: 13px;
+}
+.footer-bottom{
+    justify-content: end;
+    text-align: end;
+}
