@@ -93,5 +93,65 @@ main {
     position: absolute;
     bottom: 10px;
     left: 10px;
-    
+
 }
+.badge {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  padding: 5px 8px;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+}
+
+.discount {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+  left: 65px;
+}
+.wishlist {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 22px;
+  background: white;
+  padding: 2px 6px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.wishlist:hover,
+.wishlist.active {
+  color: red;
+}
+
+.info {
+  padding-top: 10px;
+}
+
+.brand {
+  color: gray;
+  font-size: 12px;
+}
+.name {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 5px 0;
+}
+
+.price .new {
+  color: red;
+  font-weight: bold;
+}
+
+.price .old {
+  text-decoration: line-through;
+  margin-left: 5px;
+  color: grey;
+}
+
+
