@@ -8,9 +8,40 @@ body {
   font-family: Arial, sans-serif;
 }
 header {
+  
   position: fixed;
   top: 0;
   width: 100%;
   background: orange;
   z-index: 1000;
+}
+.topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  color: white;
+  height: 60px;
+}
+.topbar a {
+  color: white;
+  text-decoration: none;
+}
+.logo{
+    display: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img {
+  height: 30px; 
+  width: auto;
+   justify-content: center;
+    align-items: center;
 }
