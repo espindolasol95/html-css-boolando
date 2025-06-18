@@ -47,3 +47,51 @@ header {
    justify-content: center;
     align-items: center;
 }
+main {
+  padding-top: 80px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.card {
+  width: 31%;
+}
+
+.img-wrapper {
+  position: relative;
+}
+
+.img-wrapper img {
+  width: 100%;
+  display: block;
+  transition: opacity 0.3s;
+}
+
+.img-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.img-wrapper:hover .img-back {
+  opacity: 1;
+}
+
+.img-wrapper:hover .img-front {
+  opacity: 0;
+}
+.badge{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    
+}
